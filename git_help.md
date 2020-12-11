@@ -14,7 +14,7 @@ sudo apt-get install git
 版本库英文名`repository`，相当与一个==目录==，这个目录里的一切都能被`git`所监管
 创建一个版本库十分简单，首先选择一个合适地方，创建一个空目录
 ```bash
-mkidr learngit
+mkdir learngit
 cd learngit
 ```
 
@@ -186,7 +186,7 @@ git status
 
 
 
-==+管理修改+==是`git`比其他版本控制系统优秀的重要原因
+<font color=red>管理修改</font>是`git`比其他版本控制系统优秀的重要原因
 
 
 
@@ -424,7 +424,7 @@ git switch master
 
 
 
-在文件中`git`用`<<<<<<<`,`=======`,`>>>>>>>`标记出不同分支的内容，我们直接==+人工判定最终版本即可+==
+在文件中`git`用`<<<<<<<`,`=======`,`>>>>>>>`标记出不同分支的内容，我们直接<font color=red>人工判定最终版本即可</font>
 
 
 
